@@ -293,6 +293,19 @@
         grid-template-columns: 1fr;
       }
     }
+      .writing-table {
+      box-sizing: border-box;
+      width: min(42rem, calc(100% - 2rem));
+      margin: 1.5rem auto;
+      padding: clamp(1.25rem, 4vw, 2.25rem);
+      background: #fff5e5;
+      color: #352938;
+      border-left: 4px solid #674077;
+      border-radius: 4px;
+    }
+    .writing-table h2 { margin: 0; font: bold clamp(1.5rem, 4vw, 2rem) Georgia, serif; color: #503158; }
+    .writing-table p { margin: .8rem 0; }
+    .writing-table a { color: #563363; font-weight: bold; text-decoration: underline; }
   </style>
 </head>
 
@@ -324,6 +337,13 @@
           I’m Windy Lynn Warren, a writer in Baraboo, Wisconsin. I wrote <em>The Sleeping State</em> and founded Baraboo Writers Blast. Here you’ll find my fiction and memoir, local writing workshops, and the advocacy work I do in Sauk County.
         </p>
       </div>
+    </section>
+
+    <section class="writing-table" aria-labelledby="writing-table-title">
+      <h2 id="writing-table-title">From Windy’s Writing Table</h2>
+      <p>An unexpected guest brings a covered dish. Before anyone lifts the lid, your aunt says, “Oh, for God’s sake, not again.”</p>
+      <p><strong>Give me the next four lines of dialogue. Keep the lid on.</strong></p>
+      <a href="#holiday-mayhem">Join us for Holiday Mayhem on December 2 →</a>
     </section>
 
     <section class="paths">
@@ -424,7 +444,7 @@
     <p><strong><time datetime="2026-11-18">Wednesday, November 18, 2026</time></strong> · Original Baraboo Writers Blast</p>
     <p>What happens when you tell the same story through someone else’s eyes? We’ll try a change in point of view and see what it reveals about a character, a conversation, or an entire scene. Already working on a chapter? Bring it along. Starting something new? You’re welcome, too.</p>
 
-    <h3>Holiday Mayhem — A Story Waiting to Happen</h3>
+    <h3 id="holiday-mayhem">Holiday Mayhem — A Story Waiting to Happen</h3>
     <p><strong><time datetime="2026-12-02">Wednesday, December 2, 2026</time></strong> · Original Baraboo Writers Blast</p>
     <p>A mysterious package arrives. An unexpected guest refuses to leave. A holiday tradition takes a bizarre turn. We’ll set aside our chapter work for an afternoon of holiday-inspired fiction. You can join this stand-alone gathering whether or not you’ve attended before.</p>
 
